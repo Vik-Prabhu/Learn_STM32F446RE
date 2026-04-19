@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"group__CMSIS__CORE.html#ga542ca74a081588273e6d5275ba5da6bf":[2,2,0,7563],
 "group__CMSIS__CORE.html#ga542ca74a081588273e6d5275ba5da6bf":[2,2,0,7564],
 "group__CMSIS__CORE.html#ga542ca74a081588273e6d5275ba5da6bf":[2,2,0,7565],
 "group__CMSIS__CORE.html#ga542ca74a081588273e6d5275ba5da6bf":[2,2,0,7566],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "group__CMSIS__CORE.html#ga55673a5fd1d9834bee90fcef964ca97c":[2,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,153],
 "group__CMSIS__CORE.html#ga55673a5fd1d9834bee90fcef964ca97c":[2,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,154],
 "group__CMSIS__CORE.html#ga55673a5fd1d9834bee90fcef964ca97c":[2,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,155],
-"group__CMSIS__CORE.html#ga55673a5fd1d9834bee90fcef964ca97c":[2,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,156],
-"group__CMSIS__CORE.html#ga55673a5fd1d9834bee90fcef964ca97c":[2,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,157]
+"group__CMSIS__CORE.html#ga55673a5fd1d9834bee90fcef964ca97c":[2,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,156]
 };

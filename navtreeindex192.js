@@ -1,5 +1,6 @@
 var NAVTREEINDEX192 =
 {
+"group__Peripheral__memory__map.html#ga56e2d44b0002f316527b8913866a370d":[2,3,0,3,95],
 "group__Peripheral__memory__map.html#ga58998ddc40adb6361704d6c9dad08125":[2,3,0,3,25],
 "group__Peripheral__memory__map.html#ga58b9980508ab28022e3be7edc4eda72e":[2,3,0,3,0],
 "group__Peripheral__memory__map.html#ga5b4152cef577e37eccc9311d8bdbf3c2":[2,3,0,3,20],
@@ -176,8 +177,10 @@ var NAVTREEINDEX192 =
 "group__stm32f4xx.html":[2,4,0],
 "group__stm32f4xx__system.html":[2,4,1],
 "index.html":[],
-"main_8c.html":[4,0,0,0,0],
-"main_8c_source.html":[4,0,0,0,0],
+"main_8c.html":[4,0,0,1,0],
+"main_8c_source.html":[4,0,0,1,0],
+"main_8h.html":[4,0,0,0,0],
+"main_8h_source.html":[4,0,0,0,0],
 "mpu__armv7_8h.html":[4,0,1,0,1,25],
 "mpu__armv7_8h.html#a042ba1a6a1a58795231459ac0410b809":[4,0,1,0,1,25,53],
 "mpu__armv7_8h.html#a0612fe51de2b25b49692290d072d829c":[4,0,1,0,1,25,37],
@@ -246,8 +249,5 @@ var NAVTREEINDEX192 =
 "mpu__armv8_8h.html#a61814eba4652a0fdfb76bbe222086327":[4,0,1,0,1,26,18],
 "mpu__armv8_8h.html#a6d7f220015c070c0e469948c1775ee3d":[4,0,1,0,1,26,25],
 "mpu__armv8_8h.html#a6e08ae44fab85e03fea96ae6a5fcdfb0":[4,0,1,0,1,26,6],
-"mpu__armv8_8h.html#a73c70127f24f34781ad463cbe51d8f6b":[4,0,1,0,1,26,13],
-"mpu__armv8_8h.html#a81b2aa3fb55cdd5feadff02da10d391b":[4,0,1,0,1,26,1],
-"mpu__armv8_8h.html#a9dcb0afddf4ac351f33f3c7a5169c62c":[4,0,1,0,1,26,16],
-"mpu__armv8_8h.html#ab4bfac6284dc050dc6fa6aeb8e954c2c":[4,0,1,0,1,26,4]
+"mpu__armv8_8h.html#a73c70127f24f34781ad463cbe51d8f6b":[4,0,1,0,1,26,13]
 };

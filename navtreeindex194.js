@@ -1,5 +1,8 @@
 var NAVTREEINDEX194 =
 {
+"structCoreDebug__Type.html":[2,2,0,0,0,1,0,0,0,0,0,0,0,1],
+"structCoreDebug__Type.html":[2,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1],
+"structDAC__TypeDef.html":[2,3,0,2,8],
 "structDAC__TypeDef.html#a03f8d95bbf0ce3a53cb79506d5bf995a":[2,3,0,2,8,9],
 "structDAC__TypeDef.html#a1bde8391647d6422b39ab5ba4f13848b":[2,3,0,2,8,11],
 "structDAC__TypeDef.html#a1d3fd83d6ed8b2d90b471db4509b0e70":[2,3,0,2,8,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX194 =
 "structSAI__Block__TypeDef.html#a9217ce4fb1e7e16dc0ead8523a6c045a":[2,3,0,2,28,3],
 "structSAI__Block__TypeDef.html#aaef957d89b76c3fa2c09ff61ee0db11d":[2,3,0,2,28,6],
 "structSAI__Block__TypeDef.html#ad1505a32bdca9a2f8da708c7372cdafc":[2,3,0,2,28,7],
-"structSAI__Block__TypeDef.html#ad9976416e6199c8c1f7bcdabe20e4bd2":[2,3,0,2,28,2],
-"structSAI__Block__TypeDef.html#aefcc864961c2bb0465e2ced3bd8b4a14":[2,3,0,2,28,5],
-"structSAI__TypeDef.html":[2,3,0,2,27],
-"structSAI__TypeDef.html#ada6999b49bbe697c1dd5fdabc9bad7f4":[2,3,0,2,27,0]
+"structSAI__Block__TypeDef.html#ad9976416e6199c8c1f7bcdabe20e4bd2":[2,3,0,2,28,2]
 };

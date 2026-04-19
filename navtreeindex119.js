@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"group__CMSIS__Core__NVICFunctions.html#gac939dbf69d3063c76a28516a4ae84db7":[2,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,47],
 "group__CMSIS__Core__NVICFunctions.html#gac939dbf69d3063c76a28516a4ae84db7":[2,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,48],
 "group__CMSIS__Core__NVICFunctions.html#gac939dbf69d3063c76a28516a4ae84db7":[2,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,49],
 "group__CMSIS__Core__NVICFunctions.html#gac939dbf69d3063c76a28516a4ae84db7":[2,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,50],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "group__CMSIS__Core__RegAccFunctions.html#ga3cd91c42ad2793c3f3ae553a1b975512":[2,0,0,6],
 "group__CMSIS__Core__RegAccFunctions.html#ga3cd91c42ad2793c3f3ae553a1b975512":[2,0,0,7],
 "group__CMSIS__Core__RegAccFunctions.html#ga3cd91c42ad2793c3f3ae553a1b975512":[2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6],
-"group__CMSIS__Core__RegAccFunctions.html#ga3cd91c42ad2793c3f3ae553a1b975512":[2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7],
-"group__CMSIS__Core__RegAccFunctions.html#ga3cd91c42ad2793c3f3ae553a1b975512":[2,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6]
+"group__CMSIS__Core__RegAccFunctions.html#ga3cd91c42ad2793c3f3ae553a1b975512":[2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7]
 };

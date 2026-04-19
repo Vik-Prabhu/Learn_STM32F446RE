@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"globals_defs_q.html":[4,1,6,13],
 "globals_defs_r.html":[4,1,6,14],
 "globals_defs_s.html":[4,1,6,15],
 "globals_defs_t.html":[4,1,6,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group__CMSIS__CORE.html#ga0371a84a7996dc5852c56afb2676ba1c":[2,2,0,2222],
 "group__CMSIS__CORE.html#ga0371a84a7996dc5852c56afb2676ba1c":[2,2,0,0,0,0,0,0,0,702],
 "group__CMSIS__CORE.html#ga0371a84a7996dc5852c56afb2676ba1c":[2,2,0,0,0,0,0,0,0,703],
-"group__CMSIS__CORE.html#ga0371a84a7996dc5852c56afb2676ba1c":[2,2,0,0,0,0,0,0,0,704],
-"group__CMSIS__CORE.html#ga0371a84a7996dc5852c56afb2676ba1c":[2,2,0,0,0,0,0,0,0,705]
+"group__CMSIS__CORE.html#ga0371a84a7996dc5852c56afb2676ba1c":[2,2,0,0,0,0,0,0,0,704]
 };

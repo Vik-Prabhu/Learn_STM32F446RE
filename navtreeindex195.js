@@ -1,5 +1,8 @@
 var NAVTREEINDEX195 =
 {
+"structSAI__Block__TypeDef.html#aefcc864961c2bb0465e2ced3bd8b4a14":[2,3,0,2,28,5],
+"structSAI__TypeDef.html":[2,3,0,2,27],
+"structSAI__TypeDef.html#ada6999b49bbe697c1dd5fdabc9bad7f4":[2,3,0,2,27,0],
 "structSCB__Type.html":[2,2,0,0,0,2],
 "structSCnSCB__Type.html":[2,2,0,0,0,0,1],
 "structSDIO__TypeDef.html":[2,3,0,2,29],
