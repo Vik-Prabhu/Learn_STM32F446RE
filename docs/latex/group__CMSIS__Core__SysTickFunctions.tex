@@ -1,0 +1,2178 @@
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{Sys\+Tick Functions }
+\hypertarget{group__CMSIS__Core__SysTickFunctions}{}\label{group__CMSIS__Core__SysTickFunctions}\index{SysTick Functions@{SysTick Functions}}
+
+
+Functions that configure the System.  
+
+
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection*{Topics}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions}{ITM Functions}}
+\begin{DoxyCompactList}\small\item\em Functions that access the ITM debug interface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+28
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\_Type::\_reserved0}}:28\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gae3f9e423f765b8898ff3983e244601c3}{APSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+23
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\_Type::\_reserved0}}:23\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga4a72282b05ab77f40e5f129e1c1ae20a}{IPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{x\+PSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+15
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{x\+PSR\+\_\+\+Type::\+T}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved1}}:\+3
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{x\+PSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{x\+PSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{x\+PSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{x\+PSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{xPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{xPSR\_Type::\_reserved0}}:15\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{xPSR\_Type::T}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{xPSR\_Type::\_reserved1}}:3\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{xPSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{xPSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{xPSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{xPSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gae1bf04d6489eb3cbdf12a6545ba84f63}{xPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga35c1732cf153b7b5c4bd321cf1de9605}{CONTROL\+\_\+\+Type::\+n\+PRIV}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\+\_\+\+Type::\+\+SPSEL}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\+\_\+\+Type::\+\+\_\+reserved1}}:\+30
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga35c1732cf153b7b5c4bd321cf1de9605}{CONTROL\_Type::nPRIV}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\_Type::SPSEL}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\_Type::\_reserved1}}:30\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga8963897b8228a11ddd5be1c9f7a54d21}{CONTROL\_Type::b}}\\
+
+\end{tabbing}\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaf3f9fb94da83f22f758ad13c0b416944}{NVIC\+\_\+\+Type::\+\+IPR}} \+[124U]\+
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga10960cdc703f661c83a237d9c69db23c}{SCB\+\_\+\+Type::\+\+RESERVED0}}
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gadddd65958c1c4c0301f62ede0a9bf12e}{SCB\+\_\+\+Type::\+\+RESERVED1}}
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gafb22e89dbfb984022a6f8ecbaf0c3b2c}{SCB\+\_\+\+Type::\+\+SHPR}} \+[2U]\+
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga383c3272908da383b6e23a059007f728}{DWT\+\_\+\+Type::\+\+RESERVED0}} \+[6U]\+
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga510cf36a641a791c057be178bbb804fe}{MPU\+\_\+\+Type::\+\+MAIR}} \+[2]\+
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b47c220774ad7786bb42ea3622b0693}{MPU\+\_\+\+Type::\+\+MAIR0}}
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gac2840c137a056aeb543bd2d618992a03}{MPU\+\_\+\+Type::\+\+MAIR1}}
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\_\_IOM}} uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b47c220774ad7786bb42ea3622b0693}{MPU\_Type::MAIR0}}\\
+\>\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\_\_IOM}} uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gac2840c137a056aeb543bd2d618992a03}{MPU\_Type::MAIR1}}\\
+\} \\
+
+\end{tabbing}\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+union \{\\
+\>\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\_\_IOM}} uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga510cf36a641a791c057be178bbb804fe}{MPU\_Type::MAIR}} \+[2]\+\\
+\>struct \{\\
+\>\>\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\_\_IOM}} uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b47c220774ad7786bb42ea3622b0693}{MPU\_Type::MAIR0}}\\
+\>\>\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\_\_IOM}} uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gac2840c137a056aeb543bd2d618992a03}{MPU\_Type::MAIR1}}\\
+\>\} \\
+\}; \\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga57e848c96daca14fc3987a2daa95b082}{Core\+Debug\+\_\+\+Type::\+\+RESERVED0}} \+[1U]\+
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaeb67cead1058df8b46eab5c22632aedd}{DCB\+\_\+\+Type::\+\+RESERVED0}} \+[1U]\+
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+28
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\_Type::\_reserved0}}:28\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga2ec06873fcb9f508245ec8a869ef0357}{APSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+23
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\_Type::\_reserved0}}:23\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gab850632f3ab8c5ac1b1ea0d937e9f05c}{IPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{x\+PSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+15
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{x\+PSR\+\_\+\+Type::\+T}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved1}}:\+3
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{x\+PSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{x\+PSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{x\+PSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{x\+PSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{xPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{xPSR\_Type::\_reserved0}}:15\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{xPSR\_Type::T}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{xPSR\_Type::\_reserved1}}:3\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{xPSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{xPSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{xPSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{xPSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gae3b79f2f2e056b6ac5e17bda1ecc873a}{xPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaf8c314273a1e4970a5671bd7f8184f50}{CONTROL\+\_\+\+Type::\+\+\_\+reserved0}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\+\_\+\+Type::\+\+SPSEL}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\+\_\+\+Type::\+\+\_\+reserved1}}:\+30
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaf8c314273a1e4970a5671bd7f8184f50}{CONTROL\_Type::\_reserved0}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\_Type::SPSEL}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\_Type::\_reserved1}}:30\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga838aa6fd6eaff6473d5aee326bcc3035}{CONTROL\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga5b95686171d6d31a0ea15c216eec517b}{NVIC\+\_\+\+Type::\+\+RESERVED1}} \+[31U]\+
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga4eef47929a0d1317a107f1ac62e28464}{NVIC\+\_\+\+Type::\+\+IP}} \+[8U]\+
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga5c40d124f95a3f7f431a3d5409d6ad28}{SCB\+\_\+\+Type::\+\+SHP}} \+[2U]\+
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+28
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\_Type::\_reserved0}}:28\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaef59da8b30c737ef07b322274ac73505}{APSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+23
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\_Type::\_reserved0}}:23\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga249e86b8377e71fd2d71fc3342900714}{IPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{x\+PSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+15
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{x\+PSR\+\_\+\+Type::\+T}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved1}}:\+3
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{x\+PSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{x\+PSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{x\+PSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{x\+PSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{xPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{xPSR\_Type::\_reserved0}}:15\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{xPSR\_Type::T}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{xPSR\_Type::\_reserved1}}:3\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{xPSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{xPSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{xPSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{xPSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gae10be31df356fe1fafd02d035872a99b}{xPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga35c1732cf153b7b5c4bd321cf1de9605}{CONTROL\+\_\+\+Type::\+n\+PRIV}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\+\_\+\+Type::\+\+SPSEL}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\+\_\+\+Type::\+\+\_\+reserved1}}:\+30
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga35c1732cf153b7b5c4bd321cf1de9605}{CONTROL\_Type::nPRIV}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\_Type::SPSEL}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\_Type::\_reserved1}}:30\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga4aa45916b9dbff5f12c600402097a335}{CONTROL\_Type::b}}\\
+
+\end{tabbing}\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga9236c629b7cf86f8bd2459c610fdf715}{MPU\+\_\+\+Type::\+\+RASR}}
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+28
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\_Type::\_reserved0}}:28\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga5c23a1f6388f812c386b3d47a7fc9a64}{APSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+23
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\_Type::\_reserved0}}:23\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga55bece37738b80b6ab5bc648b8c285e8}{IPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{x\+PSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+15
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{x\+PSR\+\_\+\+Type::\+T}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved1}}:\+3
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{x\+PSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{x\+PSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{x\+PSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{x\+PSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{xPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{xPSR\_Type::\_reserved0}}:15\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{xPSR\_Type::T}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{xPSR\_Type::\_reserved1}}:3\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{xPSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{xPSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{xPSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{xPSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gade06637a047a340f380ea33c7894add2}{xPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaf8c314273a1e4970a5671bd7f8184f50}{CONTROL\+\_\+\+Type::\+\+\_\+reserved0}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\+\_\+\+Type::\+\+SPSEL}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\+\_\+\+Type::\+\+\_\+reserved1}}:\+30
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaf8c314273a1e4970a5671bd7f8184f50}{CONTROL\_Type::\_reserved0}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\_Type::SPSEL}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\_Type::\_reserved1}}:30\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga5efbf3e0e9abdbbc5fb549057decd565}{CONTROL\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+28
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\_Type::\_reserved0}}:28\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga61c981758a810c2cf1657399d6dc9c0a}{APSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+23
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\_Type::\_reserved0}}:23\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gab1de4732e2b25f73b3dc985eb8f811b4}{IPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{x\+PSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+15
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{x\+PSR\+\_\+\+Type::\+T}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved1}}:\+3
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{x\+PSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{x\+PSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{x\+PSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{x\+PSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{xPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{xPSR\_Type::\_reserved0}}:15\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{xPSR\_Type::T}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{xPSR\_Type::\_reserved1}}:3\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{xPSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{xPSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{xPSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{xPSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga3e2e411446af029812b420a0761afe31}{xPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga35c1732cf153b7b5c4bd321cf1de9605}{CONTROL\+\_\+\+Type::\+n\+PRIV}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\+\_\+\+Type::\+\+SPSEL}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\+\_\+\+Type::\+\+\_\+reserved1}}:\+30
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga35c1732cf153b7b5c4bd321cf1de9605}{CONTROL\_Type::nPRIV}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\_Type::SPSEL}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\_Type::\_reserved1}}:30\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga94d51435760de8a2d3f1eb21ac94154a}{CONTROL\_Type::b}}\\
+
+\end{tabbing}\item 
+\doxymbox{\hyperlink{core__starmc1_8h_a4cc1649793116d7c2d8afce7a4ffce43}{\+\_\+\+\_\+\+IM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga4d4cd2357f72333a82a1313228287bbd}{TPI\+\_\+\+Type::\+\+TRIGGER}}
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_a4cc1649793116d7c2d8afce7a4ffce43}{\+\_\+\+\_\+\+IM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga4c53b48c6bb49037c97742136d14b4f7}{TPI\+\_\+\+Type::\+\+ITFTTD0}}
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gafde4a3b09318d1ec4a061d5e479a01bc}{TPI\+\_\+\+Type::\+\+ITATBCTR2}}
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_a4cc1649793116d7c2d8afce7a4ffce43}{\+\_\+\+\_\+\+IM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaaa573b2e073e76e93c51ecec79c616d0}{TPI\+\_\+\+Type::\+\+ITATBCTR0}}
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_a4cc1649793116d7c2d8afce7a4ffce43}{\+\_\+\+\_\+\+IM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaaf0447dd4b2c16dc1db1e2172c9dac8f}{TPI\+\_\+\+Type::\+\+ITFTTD1}}
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaaa4c823c10f115f7517c82ef86a5a68d}{TPI\+\_\+\+Type::\+\+ITCTRL}}
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga9c1ac143e09b64b1f6eb92ecd65d60d0}{TPI\+\_\+\+Type::\+\+RESERVED5}} \+[39U]\+
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaf8b7d15fa5252b733dd4b11fa1b5730a}{TPI\+\_\+\+Type::\+\+CLAIMSET}}
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga0e10e292cb019a832b03ddd055b2f6ac}{TPI\+\_\+\+Type::\+\+CLAIMCLR}}
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga33bb14730a444fdeeb91ea9cb7218e62}{TPI\+\_\+\+Type::\+\+RESERVED7}} \+[8U]\+
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_a4cc1649793116d7c2d8afce7a4ffce43}{\+\_\+\+\_\+\+IM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gabc0ecda8a5446bc754080276bad77514}{TPI\+\_\+\+Type::\+\+DEVID}}
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga510cf36a641a791c057be178bbb804fe}{MPU\+\_\+\+Type::\+\+MAIR}} \+[2]\+
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b47c220774ad7786bb42ea3622b0693}{MPU\+\_\+\+Type::\+\+MAIR0}}
+\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gac2840c137a056aeb543bd2d618992a03}{MPU\+\_\+\+Type::\+\+MAIR1}}
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\_\_IOM}} uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b47c220774ad7786bb42ea3622b0693}{MPU\_Type::MAIR0}}\\
+\>\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\_\_IOM}} uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gac2840c137a056aeb543bd2d618992a03}{MPU\_Type::MAIR1}}\\
+\} \\
+
+\end{tabbing}\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+union \{\\
+\>\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\_\_IOM}} uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga510cf36a641a791c057be178bbb804fe}{MPU\_Type::MAIR}} \+[2]\+\\
+\>struct \{\\
+\>\>\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\_\_IOM}} uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b47c220774ad7786bb42ea3622b0693}{MPU\_Type::MAIR0}}\\
+\>\>\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\_\_IOM}} uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gac2840c137a056aeb543bd2d618992a03}{MPU\_Type::MAIR1}}\\
+\>\} \\
+\}; \\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+28
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gafbce95646fd514c10aa85ec0a33db728}{APSR\_Type::\_reserved0}}:28\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8004d224aacb78ca37774c35f9156e7e}{APSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga86e2c5b891ecef1ab55b1edac0da79a6}{APSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3b04d58738b66a28ff13f23d8b0ba7e5}{APSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7e7bbba9b00b0bb3283dc07f1abe37e0}{APSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga608f1266795bb5bb3c86a132a12fee8d}{APSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+23
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gab46e5f1b2f4d17cfb9aca4fffcbb2fa5}{IPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gad2eb0a06de4f03f58874a727716aa9aa}{IPSR\_Type::\_reserved0}}:23\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga0aaa8b0d671d93e45ef58b314f3927bd}{IPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{x\+PSR\+\_\+\+Type::\+\+ISR}}:\+9
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved0}}:\+15
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{x\+PSR\+\_\+\+Type::\+T}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{x\+PSR\+\_\+\+Type::\+\+\_\+reserved1}}:\+3
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{x\+PSR\+\_\+\+Type::\+V}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{x\+PSR\+\_\+\+Type::\+C}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{x\+PSR\+\_\+\+Type::\+Z}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{x\+PSR\+\_\+\+Type::\+N}}:\+1
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga3e9120dcf1a829fc8d2302b4d0673970}{xPSR\_Type::ISR}}:9\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf438e0f407357e914a70b5bd4d6a97c5}{xPSR\_Type::\_reserved0}}:15\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga7eed9fe24ae8d354cd76ae1c1110a658}{xPSR\_Type::T}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga790056bb6f20ea16cecc784b0dd19ad6}{xPSR\_Type::\_reserved1}}:3\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaf14df16ea0690070c45b95f2116b7a0a}{xPSR\_Type::V}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga40213a6b5620410cac83b0d89564609d}{xPSR\_Type::C}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga1e5d9801013d5146f2e02d9b7b3da562}{xPSR\_Type::Z}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga2db9a52f6d42809627d1a7a607c5dbc5}{xPSR\_Type::N}}:1\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga9abbf25aeaf321c6d7fc1e58f508304b}{xPSR\_Type::b}}\\
+
+\end{tabbing}\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaf8c314273a1e4970a5671bd7f8184f50}{CONTROL\+\_\+\+Type::\+\+\_\+reserved0}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\+\_\+\+Type::\+\+SPSEL}}:\+1
+\item 
+uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\+\_\+\+Type::\+\+\_\+reserved1}}:\+30
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_gaf8c314273a1e4970a5671bd7f8184f50}{CONTROL\_Type::\_reserved0}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_ga8cc085fea1c50a8bd9adea63931ee8e2}{CONTROL\_Type::SPSEL}}:1\\
+\>uint32\_t \doxymbox{\hyperlink{group__CMSIS__core__DebugFunctions_gaa7a5662079a447f801034d108f80ce49}{CONTROL\_Type::\_reserved1}}:30\\
+\} \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga9eee0029178da04351c49f2ece648bc8}{CONTROL\_Type::b}}\\
+
+\end{tabbing}\item 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__SysTickFunctions_ga82273352d2e8c7a28a7b7cbdfc3d6a75}{SCB\+\_\+\+Type::\+\+SFCR}}
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{cmsis__armcc_8h_aba87361bfad2ae52cfe2f40c1a1dbf9c}{\+\_\+\+\_\+\+STATIC\+\_\+\+INLINE}} uint32\+\_\+t \doxymbox{\hyperlink{group__CMSIS__Core__NVICFunctions_gae4e8f0238527c69f522029b93c8e5b78}{Sys\+Tick\+\_\+\+Config}} (uint32\+\_\+t ticks)
+\begin{DoxyCompactList}\small\item\em System Tick Configuration. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{Detailed Description}
+Functions that configure the System. 
+
+
+
+\label{doc-func-members}
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_doc-func-members}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{Function Documentation}
+\Hypertarget{group__CMSIS__Core__NVICFunctions_gae4e8f0238527c69f522029b93c8e5b78}\index{SysTick Functions@{SysTick Functions}!SysTick\_Config@{SysTick\_Config}}
+\index{SysTick\_Config@{SysTick\_Config}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{SysTick\_Config()}{SysTick\_Config()}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__NVICFunctions_gae4e8f0238527c69f522029b93c8e5b78} 
+\doxymbox{\hyperlink{cmsis__armcc_8h_aba87361bfad2ae52cfe2f40c1a1dbf9c}{\+\_\+\+\_\+\+STATIC\+\_\+\+INLINE}} uint32\+\_\+t Sys\+Tick\+\_\+\+Config (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{ticks}{}\end{DoxyParamCaption})}
+
+
+
+System Tick Configuration. 
+
+Initializes the System Timer and its interrupt, and starts the System Tick Timer. Counter is in free running mode to generate periodic interrupts. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em ticks} & Number of ticks between two interrupts. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 Function succeeded. 
+
+1 Function failed. 
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+When the variable {\bfseries{\+\_\+\+\_\+\+Vendor\+\_\+\+Sys\+Tick\+Config}} is set to 1, then the function {\bfseries{Sys\+Tick\+\_\+\+Config}} is not included. In this case, the file {\bfseries{{\itshape device}.h}} must contain a vendor-\/specific implementation of this function. 
+\end{DoxyNote}
+
+
+Definition at line \doxymbox{\hyperlink{core__armv81mml_8h_source_l04091}{4091}} of file \doxymbox{\hyperlink{core__armv81mml_8h_source}{core\+\_\+armv81mml.\+h}}.
+
+
+
+\label{doc-var-members}
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_doc-var-members}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{Variable Documentation}
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5e335d225d0da055ba84f0bdc3f32a92}\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5e335d225d0da055ba84f0bdc3f32a92} 
+struct  \{ ... \}  \doxymbox{\hyperlink{structMPU__Type}{MPU\+\_\+\+Type}}}
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga9d24d693f68c7e0870436733efa58de9}\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[union]}{[union]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga9d24d693f68c7e0870436733efa58de9} 
+union  \{ ... \}  \doxymbox{\hyperlink{structMPU__Type}{MPU\+\_\+\+Type}}}
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga40fe4739a3cdb9acdc30398d9a603c4e}\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga40fe4739a3cdb9acdc30398d9a603c4e} 
+struct  \{ ... \}  \doxymbox{\hyperlink{structMPU__Type}{MPU\+\_\+\+Type}}}
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5ee0b5f47ed9679f466820fcc5bb1545}\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[union]}{[union]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5ee0b5f47ed9679f466820fcc5bb1545} 
+union  \{ ... \}  \doxymbox{\hyperlink{structMPU__Type}{MPU\+\_\+\+Type}}}
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga8a09f17896504f8df90f675fe7796b36}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga8a09f17896504f8df90f675fe7796b36} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 0..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00239}{239}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga20e113b4cc97b2a10ec00b04c280459d}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga20e113b4cc97b2a10ec00b04c280459d} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 0..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00214}{214}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga20e6a4620d1e13c2fa4c983b2047bc32}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [3/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga20e6a4620d1e13c2fa4c983b2047bc32} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 0..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00203}{203}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gabbe85f4de4aa68ba90a26f4815b74fc2}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [4/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gabbe85f4de4aa68ba90a26f4815b74fc2} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 0..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00203}{203}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5bca46d765f40f4c70baa4afcf08dd3d}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [5/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5bca46d765f40f4c70baa4afcf08dd3d} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 0..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00214}{214}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga20cd79a4a483b4e3cbb2fcf426f5ba17}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [6/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga20cd79a4a483b4e3cbb2fcf426f5ba17} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 0..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00239}{239}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gad05fa49969e6d1049330548fd7bb59f3}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [7/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gad05fa49969e6d1049330548fd7bb59f3} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 0 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00301}{301}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gac0a6218a4ec35ed63f3ada6767c7cef2}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [8/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gac0a6218a4ec35ed63f3ada6767c7cef2} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 0 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00290}{290}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga72f0d82c0bdb990cc0596463e158b1e3}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [9/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga72f0d82c0bdb990cc0596463e158b1e3} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 0 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00290}{290}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaf8c314273a1e4970a5671bd7f8184f50}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{\_reserved0}{\_reserved0}\hspace{0.1cm}{\footnotesize\ttfamily [10/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaf8c314273a1e4970a5671bd7f8184f50} 
+uint32\+\_\+t CONTROL\+\_\+\+Type::\+\+\_\+reserved0}
+
+bit:\+ 0 Reserved
+
+bit:\+ 3..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00290}{290}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga9415a1500c13bc8b5ed99aa0cf110832}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [11/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga9415a1500c13bc8b5ed99aa0cf110832} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00234}{234}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga50bce62d750a85af6e48916e80dcdf20}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [12/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga50bce62d750a85af6e48916e80dcdf20} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00245}{245}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gae7d5c757f9deadaf15c56314abbd1893}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [13/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gae7d5c757f9deadaf15c56314abbd1893} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00245}{245}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga63dbc714fe4da4cb5e01d737c93c8a42}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [14/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga63dbc714fe4da4cb5e01d737c93c8a42} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00270}{270}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga6fc8c76cad6889db902b7c52c0efe720}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [15/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga6fc8c76cad6889db902b7c52c0efe720} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00234}{234}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga4cae8ca11d22c2bcd02c060cc89ec49e}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [16/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga4cae8ca11d22c2bcd02c060cc89ec49e} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00270}{270}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaf0a71d953ac212de73dbe5a67a432991}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [17/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaf0a71d953ac212de73dbe5a67a432991} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..23 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00252}{252}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga1b21fbeaee15a915994a405a72a926e2}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [18/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga1b21fbeaee15a915994a405a72a926e2} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..23 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00288}{288}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaa1afe0a442abdf6df551eda49cba8c13}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [19/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaa1afe0a442abdf6df551eda49cba8c13} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..23 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00252}{252}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gab17119570e8e47f5ede29fd014d81582}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [20/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab17119570e8e47f5ede29fd014d81582} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..23 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00263}{263}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga0b3a141aef352cca146331416c2d74d1}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [21/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga0b3a141aef352cca146331416c2d74d1} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..23 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00288}{288}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5890ad03f793e22a6c6899e46ec07347}\index{SysTick Functions@{SysTick Functions}!\_reserved0@{\_reserved0}}
+\index{\_reserved0@{\_reserved0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [22/22]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5890ad03f793e22a6c6899e46ec07347} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved0}
+
+bit:\+ 9..23 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00263}{263}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga95b734441f86b2d2824f2a211d913a59}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga95b734441f86b2d2824f2a211d913a59} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 2..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00328}{328}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gacdac499fb62432c473ac15122ee2889d}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gacdac499fb62432c473ac15122ee2889d} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 2..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00303}{303}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga9f0e1e1c290fea4f2d65c8a181faa478}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [3/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga9f0e1e1c290fea4f2d65c8a181faa478} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 2..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00292}{292}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gab8e1632c8e028116e11b3560a82a5127}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [4/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab8e1632c8e028116e11b3560a82a5127} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 2..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00303}{303}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaa5d47e5595a03054c70d25d6c9debe78}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [5/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaa5d47e5595a03054c70d25d6c9debe78} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 2..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00292}{292}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga87de64311050ce6765c26b9210d3b17c}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [6/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga87de64311050ce6765c26b9210d3b17c} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 2..31 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00328}{328}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga3b59a3529b85acb4600b57ecbe45d482}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [7/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga3b59a3529b85acb4600b57ecbe45d482} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 25..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00254}{254}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga62321951da5f34af449d2b6bd82cabb8}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [8/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga62321951da5f34af449d2b6bd82cabb8} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 25..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00290}{290}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga8694bd52f23c3a95d3ca2839fadc98ed}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [9/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga8694bd52f23c3a95d3ca2839fadc98ed} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 25..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00254}{254}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga3b4489ff9845b168cc598ab8dba8d290}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [10/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga3b4489ff9845b168cc598ab8dba8d290} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 25..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00265}{265}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga7a868740ed7459c630b4e8ba3e6f4bff}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [11/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga7a868740ed7459c630b4e8ba3e6f4bff} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 25..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00290}{290}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gad4cfd6fc7f4584b651990a8ab13fb117}\index{SysTick Functions@{SysTick Functions}!\_reserved1@{\_reserved1}}
+\index{\_reserved1@{\_reserved1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [12/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gad4cfd6fc7f4584b651990a8ab13fb117} 
+uint32\+\_\+t  \{ ... \} ::\+\+\_\+reserved1}
+
+bit:\+ 25..27 Reserved 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00265}{265}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gae3f9e423f765b8898ff3983e244601c3}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [1/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gae3f9e423f765b8898ff3983e244601c3} 
+struct  \{ ... \}  APSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga2ec06873fcb9f508245ec8a869ef0357}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [2/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga2ec06873fcb9f508245ec8a869ef0357} 
+struct  \{ ... \}  APSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_gaef59da8b30c737ef07b322274ac73505}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [3/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaef59da8b30c737ef07b322274ac73505} 
+struct  \{ ... \}  APSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5c23a1f6388f812c386b3d47a7fc9a64}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [4/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5c23a1f6388f812c386b3d47a7fc9a64} 
+struct  \{ ... \}  APSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga61c981758a810c2cf1657399d6dc9c0a}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [5/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga61c981758a810c2cf1657399d6dc9c0a} 
+struct  \{ ... \}  APSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga608f1266795bb5bb3c86a132a12fee8d}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [6/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga608f1266795bb5bb3c86a132a12fee8d} 
+struct  \{ ... \}  APSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga8963897b8228a11ddd5be1c9f7a54d21}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [7/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga8963897b8228a11ddd5be1c9f7a54d21} 
+struct  \{ ... \}  CONTROL\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga838aa6fd6eaff6473d5aee326bcc3035}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [8/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga838aa6fd6eaff6473d5aee326bcc3035} 
+struct  \{ ... \}  CONTROL\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga4aa45916b9dbff5f12c600402097a335}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [9/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga4aa45916b9dbff5f12c600402097a335} 
+struct  \{ ... \}  CONTROL\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5efbf3e0e9abdbbc5fb549057decd565}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [10/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5efbf3e0e9abdbbc5fb549057decd565} 
+struct  \{ ... \}  CONTROL\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga94d51435760de8a2d3f1eb21ac94154a}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [11/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga94d51435760de8a2d3f1eb21ac94154a} 
+struct  \{ ... \}  CONTROL\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga9eee0029178da04351c49f2ece648bc8}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [12/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga9eee0029178da04351c49f2ece648bc8} 
+struct  \{ ... \}  CONTROL\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga4a72282b05ab77f40e5f129e1c1ae20a}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [13/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga4a72282b05ab77f40e5f129e1c1ae20a} 
+struct  \{ ... \}  IPSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_gab850632f3ab8c5ac1b1ea0d937e9f05c}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [14/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab850632f3ab8c5ac1b1ea0d937e9f05c} 
+struct  \{ ... \}  IPSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga249e86b8377e71fd2d71fc3342900714}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [15/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga249e86b8377e71fd2d71fc3342900714} 
+struct  \{ ... \}  IPSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga55bece37738b80b6ab5bc648b8c285e8}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [16/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga55bece37738b80b6ab5bc648b8c285e8} 
+struct  \{ ... \}  IPSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_gab1de4732e2b25f73b3dc985eb8f811b4}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [17/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab1de4732e2b25f73b3dc985eb8f811b4} 
+struct  \{ ... \}  IPSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga0aaa8b0d671d93e45ef58b314f3927bd}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [18/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga0aaa8b0d671d93e45ef58b314f3927bd} 
+struct  \{ ... \}  IPSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_gae1bf04d6489eb3cbdf12a6545ba84f63}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [19/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gae1bf04d6489eb3cbdf12a6545ba84f63} 
+struct  \{ ... \}  x\+PSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_gae3b79f2f2e056b6ac5e17bda1ecc873a}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [20/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gae3b79f2f2e056b6ac5e17bda1ecc873a} 
+struct  \{ ... \}  x\+PSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_gae10be31df356fe1fafd02d035872a99b}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [21/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gae10be31df356fe1fafd02d035872a99b} 
+struct  \{ ... \}  x\+PSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_gade06637a047a340f380ea33c7894add2}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [22/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gade06637a047a340f380ea33c7894add2} 
+struct  \{ ... \}  x\+PSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga3e2e411446af029812b420a0761afe31}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [23/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga3e2e411446af029812b420a0761afe31} 
+struct  \{ ... \}  x\+PSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga9abbf25aeaf321c6d7fc1e58f508304b}\index{SysTick Functions@{SysTick Functions}!b@{b}}
+\index{b@{b}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[struct]}{[struct]}\hspace{0.1cm}{\footnotesize\ttfamily [24/24]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga9abbf25aeaf321c6d7fc1e58f508304b} 
+struct  \{ ... \}  x\+PSR\+\_\+\+Type::\+b}
+
+Structure used for bit access \Hypertarget{group__CMSIS__Core__SysTickFunctions_ga8fd0cf8e9fadb3f813e477ed8adb6c2f}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga8fd0cf8e9fadb3f813e477ed8adb6c2f} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00241}{241}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaa5394d5879c8ee1eac0d2aa1029bf879}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaa5394d5879c8ee1eac0d2aa1029bf879} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00216}{216}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga8c2745b6d0efbe15bd5f1f4049809343}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [3/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga8c2745b6d0efbe15bd5f1f4049809343} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00205}{205}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gac351c6acd278ef17d055ee5e94342b28}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [4/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gac351c6acd278ef17d055ee5e94342b28} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00205}{205}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga523141751208457515943af446825ef5}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [5/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga523141751208457515943af446825ef5} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00216}{216}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5ce36419d634813af69e8c413e11eb35}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [6/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5ce36419d634813af69e8c413e11eb35} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00241}{241}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga1b2e6b94ace1c9e967e0341e3163de90}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [7/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga1b2e6b94ace1c9e967e0341e3163de90} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00256}{256}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gac296f9ac1330b26f56432404b5fb23fa}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [8/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gac296f9ac1330b26f56432404b5fb23fa} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00292}{292}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaa00b275842d3048d69766dcc375cec8f}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [9/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaa00b275842d3048d69766dcc375cec8f} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00256}{256}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaf6853031aa6a6677cc1ea0127106ef52}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [10/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaf6853031aa6a6677cc1ea0127106ef52} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00267}{267}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga04564f8f6541f5c3a5e9c67cc4c93913}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [11/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga04564f8f6541f5c3a5e9c67cc4c93913} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00292}{292}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga407536acfd96bf3c61948bcdc061165e}\index{SysTick Functions@{SysTick Functions}!C@{C}}
+\index{C@{C}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [12/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga407536acfd96bf3c61948bcdc061165e} 
+uint32\+\_\+t  \{ ... \} ::\+C}
+
+bit:\+ 29 Carry condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00267}{267}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga0e10e292cb019a832b03ddd055b2f6ac}\index{SysTick Functions@{SysTick Functions}!CLAIMCLR@{CLAIMCLR}}
+\index{CLAIMCLR@{CLAIMCLR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{CLAIMCLR}{CLAIMCLR}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga0e10e292cb019a832b03ddd055b2f6ac} 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t TPI\+\_\+\+Type::\+\+CLAIMCLR}
+
+Offset:\+ 0x\+FA4 (R/\+W) Claim tag clear 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00749}{749}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaf8b7d15fa5252b733dd4b11fa1b5730a}\index{SysTick Functions@{SysTick Functions}!CLAIMSET@{CLAIMSET}}
+\index{CLAIMSET@{CLAIMSET}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{CLAIMSET}{CLAIMSET}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaf8b7d15fa5252b733dd4b11fa1b5730a} 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t TPI\+\_\+\+Type::\+\+CLAIMSET}
+
+Offset:\+ 0x\+FA0 (R/\+W) Claim tag set 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00748}{748}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gabc0ecda8a5446bc754080276bad77514}\index{SysTick Functions@{SysTick Functions}!DEVID@{DEVID}}
+\index{DEVID@{DEVID}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{DEVID}{DEVID}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gabc0ecda8a5446bc754080276bad77514} 
+\doxymbox{\hyperlink{core__starmc1_8h_a4cc1649793116d7c2d8afce7a4ffce43}{\+\_\+\+\_\+\+IM}} uint32\+\_\+t TPI\+\_\+\+Type::\+\+DEVID}
+
+Offset:\+ 0x\+FC8 (R/\+ ) Device Configuration Register
+
+Offset:\+ 0x\+FC8 (R/\+ ) TPIU\+\_\+\+DEVID 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00751}{751}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga4eef47929a0d1317a107f1ac62e28464}\index{SysTick Functions@{SysTick Functions}!IP@{IP}}
+\index{IP@{IP}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{IP}{IP}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga4eef47929a0d1317a107f1ac62e28464} 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint8\+\_\+t NVIC\+\_\+\+Type::\+\+IP}
+
+Offset:\+ 0x300 (R/\+W) Interrupt Priority Register
+
+Offset:\+ 0x300 (R/\+W) Interrupt Priority Register (8Bit wide) 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00325}{325}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaf3f9fb94da83f22f758ad13c0b416944}\index{SysTick Functions@{SysTick Functions}!IPR@{IPR}}
+\index{IPR@{IPR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{IPR}{IPR}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaf3f9fb94da83f22f758ad13c0b416944} 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t NVIC\+\_\+\+Type::\+\+IPR\+[124U]\+}
+
+Offset:\+ 0x300 (R/\+W) Interrupt Priority Register 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00367}{367}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga493495c7d4c5c84ed9bd7d8cb225e360}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga493495c7d4c5c84ed9bd7d8cb225e360} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00233}{233}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gab2a5b1689c7226c279c5016d85a4e2e5}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab2a5b1689c7226c279c5016d85a4e2e5} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00244}{244}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaf461ac830bdfe8ad9891b8e48efeda71}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [3/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaf461ac830bdfe8ad9891b8e48efeda71} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00244}{244}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gabcefd69671d3edf7c438a8b2750d5f66}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [4/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gabcefd69671d3edf7c438a8b2750d5f66} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00269}{269}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaa744ce2b7b811565032f2edf3f3bc8d7}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [5/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaa744ce2b7b811565032f2edf3f3bc8d7} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00233}{233}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga99e0c57f2c8601200cc6eeab92f964cd}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [6/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga99e0c57f2c8601200cc6eeab92f964cd} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00269}{269}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga62847291a077b34508b9e1e7c3b94940}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [7/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga62847291a077b34508b9e1e7c3b94940} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00251}{251}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga4dd10eab530ccda21f09a31ddc6529a5}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [8/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga4dd10eab530ccda21f09a31ddc6529a5} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00287}{287}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5b38e1c0b143e5dc7fba3dbe907ccd5d}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [9/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5b38e1c0b143e5dc7fba3dbe907ccd5d} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00251}{251}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga7b104274446f319f2e3397fdb99a7f8d}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [10/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga7b104274446f319f2e3397fdb99a7f8d} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00262}{262}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaadcfb939606169e7de9d709f3d7214f2}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [11/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaadcfb939606169e7de9d709f3d7214f2} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00287}{287}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga02bc55fb001fd459630511a0096b0c5e}\index{SysTick Functions@{SysTick Functions}!ISR@{ISR}}
+\index{ISR@{ISR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [12/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga02bc55fb001fd459630511a0096b0c5e} 
+uint32\+\_\+t  \{ ... \} ::\+\+ISR}
+
+bit:\+ 0.. 8 Exception number 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00262}{262}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaaa573b2e073e76e93c51ecec79c616d0}\index{SysTick Functions@{SysTick Functions}!ITATBCTR0@{ITATBCTR0}}
+\index{ITATBCTR0@{ITATBCTR0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{ITATBCTR0}{ITATBCTR0}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaaa573b2e073e76e93c51ecec79c616d0} 
+\doxymbox{\hyperlink{core__starmc1_8h_a4cc1649793116d7c2d8afce7a4ffce43}{\+\_\+\+\_\+\+IM}} uint32\+\_\+t TPI\+\_\+\+Type::\+\+ITATBCTR0}
+
+Offset:\+ 0x\+EF8 (R/\+ ) Integration Test ATB Control Register 0
+
+Offset:\+ 0x\+EF8 (R/\+ ) ITATBCTR0 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00744}{744}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gafde4a3b09318d1ec4a061d5e479a01bc}\index{SysTick Functions@{SysTick Functions}!ITATBCTR2@{ITATBCTR2}}
+\index{ITATBCTR2@{ITATBCTR2}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{ITATBCTR2}{ITATBCTR2}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gafde4a3b09318d1ec4a061d5e479a01bc} 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t TPI\+\_\+\+Type::\+\+ITATBCTR2}
+
+Offset:\+ 0x\+EF0 (R/\+W) Integration Test ATB Control Register 2
+
+Offset:\+ 0x\+EF0 (R/\+ ) ITATBCTR2 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00742}{742}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaaa4c823c10f115f7517c82ef86a5a68d}\index{SysTick Functions@{SysTick Functions}!ITCTRL@{ITCTRL}}
+\index{ITCTRL@{ITCTRL}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{ITCTRL}{ITCTRL}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaaa4c823c10f115f7517c82ef86a5a68d} 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t TPI\+\_\+\+Type::\+\+ITCTRL}
+
+Offset:\+ 0x\+F00 (R/\+W) Integration Mode Control 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00746}{746}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga4c53b48c6bb49037c97742136d14b4f7}\index{SysTick Functions@{SysTick Functions}!ITFTTD0@{ITFTTD0}}
+\index{ITFTTD0@{ITFTTD0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{ITFTTD0}{ITFTTD0}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga4c53b48c6bb49037c97742136d14b4f7} 
+\doxymbox{\hyperlink{core__starmc1_8h_a4cc1649793116d7c2d8afce7a4ffce43}{\+\_\+\+\_\+\+IM}} uint32\+\_\+t TPI\+\_\+\+Type::\+\+ITFTTD0}
+
+Offset:\+ 0x\+EEC (R/\+ ) Integration Test FIFO Test Data 0 Register 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00741}{741}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaaf0447dd4b2c16dc1db1e2172c9dac8f}\index{SysTick Functions@{SysTick Functions}!ITFTTD1@{ITFTTD1}}
+\index{ITFTTD1@{ITFTTD1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{ITFTTD1}{ITFTTD1}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaaf0447dd4b2c16dc1db1e2172c9dac8f} 
+\doxymbox{\hyperlink{core__starmc1_8h_a4cc1649793116d7c2d8afce7a4ffce43}{\+\_\+\+\_\+\+IM}} uint32\+\_\+t TPI\+\_\+\+Type::\+\+ITFTTD1}
+
+Offset:\+ 0x\+EFC (R/\+ ) Integration Test FIFO Test Data 1 Register 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00745}{745}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga0730e73924f648802ab106915cabfb4c}\index{SysTick Functions@{SysTick Functions}!MAIR@{MAIR}}
+\index{MAIR@{MAIR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga0730e73924f648802ab106915cabfb4c} 
+\+\_\+\+\_\+\+IOM uint32\+\_\+t  \{ ... \} ::\+\+MAIR\+[2]\+}
+
+
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00910}{910}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gada74c9248f2ee3a0f0a39734237121f5}\index{SysTick Functions@{SysTick Functions}!MAIR@{MAIR}}
+\index{MAIR@{MAIR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gada74c9248f2ee3a0f0a39734237121f5} 
+\+\_\+\+\_\+\+IOM uint32\+\_\+t  \{ ... \} ::\+\+MAIR\+[2]\+}
+
+
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00835}{835}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga9974422897de56b575ce68cd552fb1c5}\index{SysTick Functions@{SysTick Functions}!MAIR0@{MAIR0}}
+\index{MAIR0@{MAIR0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga9974422897de56b575ce68cd552fb1c5} 
+\+\_\+\+\_\+\+IOM uint32\+\_\+t  \{ ... \} ::\+\+MAIR0}
+
+Offset:\+ 0x030 (R/\+W) MPU Memory Attribute Indirection Register 0 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00912}{912}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gab0f4e375786920909bb1717b85790a49}\index{SysTick Functions@{SysTick Functions}!MAIR0@{MAIR0}}
+\index{MAIR0@{MAIR0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab0f4e375786920909bb1717b85790a49} 
+\+\_\+\+\_\+\+IOM uint32\+\_\+t  \{ ... \} ::\+\+MAIR0}
+
+Offset:\+ 0x030 (R/\+W) MPU Memory Attribute Indirection Register 0 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00837}{837}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga6059b0159cda7abdc225b288ed2e03c0}\index{SysTick Functions@{SysTick Functions}!MAIR1@{MAIR1}}
+\index{MAIR1@{MAIR1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga6059b0159cda7abdc225b288ed2e03c0} 
+\+\_\+\+\_\+\+IOM uint32\+\_\+t  \{ ... \} ::\+\+MAIR1}
+
+Offset:\+ 0x034 (R/\+W) MPU Memory Attribute Indirection Register 1 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00913}{913}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gadf2e3c5490f396b0ac6e7bcf3db02c20}\index{SysTick Functions@{SysTick Functions}!MAIR1@{MAIR1}}
+\index{MAIR1@{MAIR1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gadf2e3c5490f396b0ac6e7bcf3db02c20} 
+\+\_\+\+\_\+\+IOM uint32\+\_\+t  \{ ... \} ::\+\+MAIR1}
+
+Offset:\+ 0x034 (R/\+W) MPU Memory Attribute Indirection Register 1 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00838}{838}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gadcea736711176f0252ef828fd7fa6649}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gadcea736711176f0252ef828fd7fa6649} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00243}{243}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga67bf0ac43a114356c9574779d36bf359}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga67bf0ac43a114356c9574779d36bf359} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00218}{218}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gab12256c0bbdad10bf56c8203f4832d77}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [3/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab12256c0bbdad10bf56c8203f4832d77} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00207}{207}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga086cad136fd643fd42d024682f4edbf9}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [4/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga086cad136fd643fd42d024682f4edbf9} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00207}{207}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gae567d0f7a1d811efc01d77a90a23d39e}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [5/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gae567d0f7a1d811efc01d77a90a23d39e} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00218}{218}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaff6c97e5061c1c8c85709247b05029e7}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [6/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaff6c97e5061c1c8c85709247b05029e7} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00243}{243}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gad561204be8bd6d8762aee4f90382ff67}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [7/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gad561204be8bd6d8762aee4f90382ff67} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00258}{258}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga57aaf15833e5ed3053e842633e590d0c}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [8/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga57aaf15833e5ed3053e842633e590d0c} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00294}{294}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga2b7de5ea85d472088d95ac9da5e9782b}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [9/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga2b7de5ea85d472088d95ac9da5e9782b} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00258}{258}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga1116750863051e90f5c15fbfe388ff4a}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [10/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga1116750863051e90f5c15fbfe388ff4a} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00269}{269}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga3ec6bd58467015b1f6186c1b8beff472}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [11/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga3ec6bd58467015b1f6186c1b8beff472} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00294}{294}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga1d0475e3cd5dba508588262eeb1c5571}\index{SysTick Functions@{SysTick Functions}!N@{N}}
+\index{N@{N}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [12/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga1d0475e3cd5dba508588262eeb1c5571} 
+uint32\+\_\+t  \{ ... \} ::\+N}
+
+bit:\+ 31 Negative condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00269}{269}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga060e80035a3a15fff0094eb2377fc7c3}\index{SysTick Functions@{SysTick Functions}!nPRIV@{nPRIV}}
+\index{nPRIV@{nPRIV}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga060e80035a3a15fff0094eb2377fc7c3} 
+uint32\+\_\+t  \{ ... \} ::\+n\+PRIV}
+
+bit:\+ 0 Execution privilege in Thread mode 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00326}{326}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga729eaf1b0f97c352a8300cd85fea9830}\index{SysTick Functions@{SysTick Functions}!nPRIV@{nPRIV}}
+\index{nPRIV@{nPRIV}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga729eaf1b0f97c352a8300cd85fea9830} 
+uint32\+\_\+t  \{ ... \} ::\+n\+PRIV}
+
+bit:\+ 0 Execution privilege in Thread mode 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00301}{301}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gab60ece7dd18e7a06c94d30f1739eb606}\index{SysTick Functions@{SysTick Functions}!nPRIV@{nPRIV}}
+\index{nPRIV@{nPRIV}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab60ece7dd18e7a06c94d30f1739eb606} 
+uint32\+\_\+t  \{ ... \} ::\+n\+PRIV}
+
+bit:\+ 0 Execution privilege in Thread mode 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00326}{326}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga9236c629b7cf86f8bd2459c610fdf715}\index{SysTick Functions@{SysTick Functions}!RASR@{RASR}}
+\index{RASR@{RASR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{RASR}{RASR}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga9236c629b7cf86f8bd2459c610fdf715} 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t MPU\+\_\+\+Type::\+\+RASR}
+
+Offset:\+ 0x010 (R/\+W) MPU Region Attribute and Size Register 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00530}{530}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga57e848c96daca14fc3987a2daa95b082}\index{SysTick Functions@{SysTick Functions}!RESERVED0@{RESERVED0}}
+\index{RESERVED0@{RESERVED0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{RESERVED0}{RESERVED0}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga57e848c96daca14fc3987a2daa95b082} 
+uint32\+\_\+t Core\+Debug\+\_\+\+Type::\+\+RESERVED0}
+
+
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00997}{997}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaeb67cead1058df8b46eab5c22632aedd}\index{SysTick Functions@{SysTick Functions}!RESERVED0@{RESERVED0}}
+\index{RESERVED0@{RESERVED0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{RESERVED0}{RESERVED0}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaeb67cead1058df8b46eab5c22632aedd} 
+uint32\+\_\+t DCB\+\_\+\+Type::\+\+RESERVED0}
+
+
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l01098}{1098}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga383c3272908da383b6e23a059007f728}\index{SysTick Functions@{SysTick Functions}!RESERVED0@{RESERVED0}}
+\index{RESERVED0@{RESERVED0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{RESERVED0}{RESERVED0}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga383c3272908da383b6e23a059007f728} 
+uint32\+\_\+t DWT\+\_\+\+Type::\+\+RESERVED0}
+
+
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00615}{615}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga10960cdc703f661c83a237d9c69db23c}\index{SysTick Functions@{SysTick Functions}!RESERVED0@{RESERVED0}}
+\index{RESERVED0@{RESERVED0}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{RESERVED0}{RESERVED0}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga10960cdc703f661c83a237d9c69db23c} 
+uint32\+\_\+t SCB\+\_\+\+Type::\+\+RESERVED0}
+
+
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00390}{390}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5b95686171d6d31a0ea15c216eec517b}\index{SysTick Functions@{SysTick Functions}!RESERVED1@{RESERVED1}}
+\index{RESERVED1@{RESERVED1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{RESERVED1}{RESERVED1}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5b95686171d6d31a0ea15c216eec517b} 
+uint32\+\_\+t NVIC\+\_\+\+Type::\+\+RESERVED1}
+
+
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00319}{319}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gadddd65958c1c4c0301f62ede0a9bf12e}\index{SysTick Functions@{SysTick Functions}!RESERVED1@{RESERVED1}}
+\index{RESERVED1@{RESERVED1}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{RESERVED1}{RESERVED1}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gadddd65958c1c4c0301f62ede0a9bf12e} 
+uint32\+\_\+t SCB\+\_\+\+Type::\+\+RESERVED1}
+
+
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00395}{395}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga9c1ac143e09b64b1f6eb92ecd65d60d0}\index{SysTick Functions@{SysTick Functions}!RESERVED5@{RESERVED5}}
+\index{RESERVED5@{RESERVED5}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{RESERVED5}{RESERVED5}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga9c1ac143e09b64b1f6eb92ecd65d60d0} 
+uint32\+\_\+t TPI\+\_\+\+Type::\+\+RESERVED5}
+
+
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00747}{747}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga33bb14730a444fdeeb91ea9cb7218e62}\index{SysTick Functions@{SysTick Functions}!RESERVED7@{RESERVED7}}
+\index{RESERVED7@{RESERVED7}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{RESERVED7}{RESERVED7}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga33bb14730a444fdeeb91ea9cb7218e62} 
+uint32\+\_\+t TPI\+\_\+\+Type::\+\+RESERVED7}
+
+
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00750}{750}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga82273352d2e8c7a28a7b7cbdfc3d6a75}\index{SysTick Functions@{SysTick Functions}!SFCR@{SFCR}}
+\index{SFCR@{SFCR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{SFCR}{SFCR}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga82273352d2e8c7a28a7b7cbdfc3d6a75} 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t SCB\+\_\+\+Type::\+\+SFCR}
+
+Offset:\+ 0x290 (R/\+W) Security Features Control Register 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00364}{364}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5c40d124f95a3f7f431a3d5409d6ad28}\index{SysTick Functions@{SysTick Functions}!SHP@{SHP}}
+\index{SHP@{SHP}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{SHP}{SHP}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5c40d124f95a3f7f431a3d5409d6ad28} 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint8\+\_\+t SCB\+\_\+\+Type::\+\+SHP}
+
+Offset:\+ 0x01C (R/\+W) System Handlers Priority Registers. \+[0]\+ is RESERVED
+
+Offset:\+ 0x018 (R/\+W) System Handlers Priority Registers (4-\/7, 8-\/11, 12-\/15) 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00350}{350}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gafb22e89dbfb984022a6f8ecbaf0c3b2c}\index{SysTick Functions@{SysTick Functions}!SHPR@{SHPR}}
+\index{SHPR@{SHPR}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{SHPR}{SHPR}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gafb22e89dbfb984022a6f8ecbaf0c3b2c} 
+\doxymbox{\hyperlink{core__starmc1_8h_ab6caba5853a60a17e8e04499b52bf691}{\+\_\+\+\_\+\+IOM}} uint32\+\_\+t SCB\+\_\+\+Type::\+\+SHPR\+[2U]\+}
+
+Offset:\+ 0x01C (R/\+W) System Handlers Priority Registers. \+[0]\+ is RESERVED 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00396}{396}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gad04e49543b74371ef9ff5c42826cbc71}\index{SysTick Functions@{SysTick Functions}!SPSEL@{SPSEL}}
+\index{SPSEL@{SPSEL}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gad04e49543b74371ef9ff5c42826cbc71} 
+uint32\+\_\+t  \{ ... \} ::\+\+SPSEL}
+
+bit:\+ 1 Stack-\/pointer select 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00327}{327}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gae9bee4088ab6cb53fc2b0d3c0d66f71d}\index{SysTick Functions@{SysTick Functions}!SPSEL@{SPSEL}}
+\index{SPSEL@{SPSEL}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gae9bee4088ab6cb53fc2b0d3c0d66f71d} 
+uint32\+\_\+t  \{ ... \} ::\+\+SPSEL}
+
+bit:\+ 1 Stack to be used 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00302}{302}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga9f605a36ad33b904b7acf5000d4afde7}\index{SysTick Functions@{SysTick Functions}!SPSEL@{SPSEL}}
+\index{SPSEL@{SPSEL}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga9f605a36ad33b904b7acf5000d4afde7} 
+uint32\+\_\+t  \{ ... \} ::\+\+SPSEL}
+
+bit:\+ 1 Stack to be used 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00291}{291}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga6ca9e016c6760d9bb54aca54ed1e4dd9}\index{SysTick Functions@{SysTick Functions}!SPSEL@{SPSEL}}
+\index{SPSEL@{SPSEL}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga6ca9e016c6760d9bb54aca54ed1e4dd9} 
+uint32\+\_\+t  \{ ... \} ::\+\+SPSEL}
+
+bit:\+ 1 Stack to be used 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00302}{302}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga0a8a433a1e7854cbfe36fd301f705222}\index{SysTick Functions@{SysTick Functions}!SPSEL@{SPSEL}}
+\index{SPSEL@{SPSEL}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga0a8a433a1e7854cbfe36fd301f705222} 
+uint32\+\_\+t  \{ ... \} ::\+\+SPSEL}
+
+bit:\+ 1 Stack to be used 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00291}{291}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga8de25be7c337cc05a7c175bf67932ff0}\index{SysTick Functions@{SysTick Functions}!SPSEL@{SPSEL}}
+\index{SPSEL@{SPSEL}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga8de25be7c337cc05a7c175bf67932ff0} 
+uint32\+\_\+t  \{ ... \} ::\+\+SPSEL}
+
+bit:\+ 1 Stack-\/pointer select 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00327}{327}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gae96fd57e5950c257587c82899ae7ca75}\index{SysTick Functions@{SysTick Functions}!T@{T}}
+\index{T@{T}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gae96fd57e5950c257587c82899ae7ca75} 
+uint32\+\_\+t  \{ ... \} ::\+T}
+
+bit:\+ 24 Thumb bit (read 0) 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00253}{253}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga4fb9c0b6ed356968c4c338b8b6cd0d77}\index{SysTick Functions@{SysTick Functions}!T@{T}}
+\index{T@{T}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga4fb9c0b6ed356968c4c338b8b6cd0d77} 
+uint32\+\_\+t  \{ ... \} ::\+T}
+
+bit:\+ 24 Thumb bit (read 0) 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00289}{289}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga5fb438549e0121c3de0864c4c8c68098}\index{SysTick Functions@{SysTick Functions}!T@{T}}
+\index{T@{T}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga5fb438549e0121c3de0864c4c8c68098} 
+uint32\+\_\+t  \{ ... \} ::\+T}
+
+bit:\+ 24 Thumb bit (read 0) 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00253}{253}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gab82f8424faa09ea1115df275d0aea063}\index{SysTick Functions@{SysTick Functions}!T@{T}}
+\index{T@{T}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab82f8424faa09ea1115df275d0aea063} 
+uint32\+\_\+t  \{ ... \} ::\+T}
+
+bit:\+ 24 Thumb bit (read 0) 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00264}{264}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gab4ae5a3cd80f9acd4cf842128c022e92}\index{SysTick Functions@{SysTick Functions}!T@{T}}
+\index{T@{T}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab4ae5a3cd80f9acd4cf842128c022e92} 
+uint32\+\_\+t  \{ ... \} ::\+T}
+
+bit:\+ 24 Thumb bit (read 0) 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00289}{289}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gae420765229d44d7638c37d2b5324a0e1}\index{SysTick Functions@{SysTick Functions}!T@{T}}
+\index{T@{T}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gae420765229d44d7638c37d2b5324a0e1} 
+uint32\+\_\+t  \{ ... \} ::\+T}
+
+bit:\+ 24 Thumb bit (read 0) 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00264}{264}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga4d4cd2357f72333a82a1313228287bbd}\index{SysTick Functions@{SysTick Functions}!TRIGGER@{TRIGGER}}
+\index{TRIGGER@{TRIGGER}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{TRIGGER}{TRIGGER}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga4d4cd2357f72333a82a1313228287bbd} 
+\doxymbox{\hyperlink{core__starmc1_8h_a4cc1649793116d7c2d8afce7a4ffce43}{\+\_\+\+\_\+\+IM}} uint32\+\_\+t TPI\+\_\+\+Type::\+\+TRIGGER}
+
+Offset:\+ 0x\+EE8 (R/\+ ) TRIGGER Register 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00740}{740}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga919e47041706c776c250be64510df478}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga919e47041706c776c250be64510df478} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00240}{240}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga8c7a3b1f2daacf6f14fb518d1519cc6d}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga8c7a3b1f2daacf6f14fb518d1519cc6d} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00215}{215}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaf5e1b7632a31b0016210b7ffa319f301}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [3/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaf5e1b7632a31b0016210b7ffa319f301} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00204}{204}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga428c54c10d6770f1357b4dc31f46de33}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [4/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga428c54c10d6770f1357b4dc31f46de33} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00204}{204}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gab78509f409be621aab19bfeb727fd59a}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [5/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab78509f409be621aab19bfeb727fd59a} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00215}{215}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga769f323de2ff12dbb6cf22ee9bc324b5}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [6/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga769f323de2ff12dbb6cf22ee9bc324b5} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00240}{240}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga475c7a7692e6b346f1992774d52ff36e}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [7/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga475c7a7692e6b346f1992774d52ff36e} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00255}{255}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga276c0b449c2734162d89fdb1d837d776}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [8/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga276c0b449c2734162d89fdb1d837d776} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00291}{291}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaa75d2369549ac922bf3e34de45e15e76}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [9/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaa75d2369549ac922bf3e34de45e15e76} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00255}{255}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga27e68d26cbe3b5cf202c5439014a882f}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [10/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga27e68d26cbe3b5cf202c5439014a882f} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00266}{266}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaf62bfdecd53445c1c94ec31007a92d2e}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [11/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaf62bfdecd53445c1c94ec31007a92d2e} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00291}{291}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga9cc3e342ed74cf3b63ba6a78d16f5645}\index{SysTick Functions@{SysTick Functions}!V@{V}}
+\index{V@{V}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [12/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga9cc3e342ed74cf3b63ba6a78d16f5645} 
+uint32\+\_\+t  \{ ... \} ::\+V}
+
+bit:\+ 28 Overflow condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00266}{266}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaea9b4eb43486e5e0ec9354748842a917}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [1/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaea9b4eb43486e5e0ec9354748842a917} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00242}{242}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gaf0ba91e67d0a843cb02d29acd3c01899}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [2/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gaf0ba91e67d0a843cb02d29acd3c01899} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00217}{217}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga0cabb3ec12f784432a7a1f4c1aa1fbe7}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [3/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga0cabb3ec12f784432a7a1f4c1aa1fbe7} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00206}{206}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga2d18a041a16d5719862f5395a7209bbc}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [4/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga2d18a041a16d5719862f5395a7209bbc} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00206}{206}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga37bd596284a3d8dbee890138ae9a7664}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [5/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga37bd596284a3d8dbee890138ae9a7664} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00217}{217}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga4ed2b1a5600e90ba04c88deb5fbb17b2}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [6/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga4ed2b1a5600e90ba04c88deb5fbb17b2} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00242}{242}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gae864a3500cb7355648873fd2c499ff56}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [7/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gae864a3500cb7355648873fd2c499ff56} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm1_8h_source_l00257}{257}} of file \doxymbox{\hyperlink{core__cm1_8h_source}{core\+\_\+cm1.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga71bd8a7f7bac1110f44fb5caa5adeeba}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [8/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga71bd8a7f7bac1110f44fb5caa5adeeba} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm23_8h_source_l00293}{293}} of file \doxymbox{\hyperlink{core__cm23_8h_source}{core\+\_\+cm23.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_gab7c9b3f6abe6720b685b7ee6155c5a4f}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [9/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_gab7c9b3f6abe6720b685b7ee6155c5a4f} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0_8h_source_l00257}{257}} of file \doxymbox{\hyperlink{core__cm0_8h_source}{core\+\_\+cm0.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga7911dd6d62ebfb53965c0b2ed1e3edda}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [10/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga7911dd6d62ebfb53965c0b2ed1e3edda} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__sc000_8h_source_l00268}{268}} of file \doxymbox{\hyperlink{core__sc000_8h_source}{core\+\_\+sc000.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga8a28953ac673b47d186ea627eee13e13}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [11/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga8a28953ac673b47d186ea627eee13e13} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__armv8mbl_8h_source_l00293}{293}} of file \doxymbox{\hyperlink{core__armv8mbl_8h_source}{core\+\_\+armv8mbl.\+h}}.
+
+\Hypertarget{group__CMSIS__Core__SysTickFunctions_ga0d73148a9d6bf7e1ffb6ed66191aa778}\index{SysTick Functions@{SysTick Functions}!Z@{Z}}
+\index{Z@{Z}!SysTick Functions@{SysTick Functions}}
+\doxysubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsubsection{\texorpdfstring{[]}{[]}\hspace{0.1cm}{\footnotesize\ttfamily [12/12]}}
+{\footnotesize\ttfamily \label{group__CMSIS__Core__SysTickFunctions_ga0d73148a9d6bf7e1ffb6ed66191aa778} 
+uint32\+\_\+t  \{ ... \} ::\+Z}
+
+bit:\+ 30 Zero condition code flag 
+
+Definition at line \doxymbox{\hyperlink{core__cm0plus_8h_source_l00268}{268}} of file \doxymbox{\hyperlink{core__cm0plus_8h_source}{core\+\_\+cm0plus.\+h}}.
+
+\input{group__CMSIS__core__DebugFunctions}
