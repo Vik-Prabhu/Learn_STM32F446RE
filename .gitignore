@@ -4,4 +4,5 @@ build/obj/
 
 # Doxygen generated files - built by GitHub Actions
 docs/html/
-docs/latex/
+docs/latex/*
+!docs/latex/*.pdf
