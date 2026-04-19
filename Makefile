@@ -33,7 +33,7 @@ out/final_sh.elf: out/main.o out/led.o out/stm32_startup.o
 	$(CC) $(LDFLAGS_SH) -o $@ $^
 
 clean:
-	rm -rf out/
+	rm -rf build/obj
 
 load:
 	openocd -f board/stm32f4discovery.cfg
