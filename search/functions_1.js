@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['arm_5fmpu_5fclrregion_0',['ARM_MPU_ClrRegion',['../mpu__armv8_8h.html#a9dcb0afddf4ac351f33f3c7a5169c62c',1,'ARM_MPU_ClrRegion(uint32_t rnr):&#160;mpu_armv8.h'],['../mpu__armv7_8h.html#a9dcb0afddf4ac351f33f3c7a5169c62c',1,'ARM_MPU_ClrRegion(uint32_t rnr):&#160;mpu_armv7.h']]],
+  ['arm_5fmpu_5fclrregion_0',['ARM_MPU_ClrRegion',['../mpu__armv7_8h.html#a9dcb0afddf4ac351f33f3c7a5169c62c',1,'ARM_MPU_ClrRegion(uint32_t rnr):&#160;mpu_armv7.h'],['../mpu__armv8_8h.html#a9dcb0afddf4ac351f33f3c7a5169c62c',1,'ARM_MPU_ClrRegion(uint32_t rnr):&#160;mpu_armv8.h']]],
   ['arm_5fmpu_5fclrregionex_1',['ARM_MPU_ClrRegionEx',['../mpu__armv8_8h.html#a01fa1151c9ec0ba5de76f908c0999316',1,'mpu_armv8.h']]],
   ['arm_5fmpu_5fdisable_2',['ARM_MPU_Disable',['../mpu__armv7_8h.html#a61814eba4652a0fdfb76bbe222086327',1,'ARM_MPU_Disable(void):&#160;mpu_armv7.h'],['../mpu__armv8_8h.html#a61814eba4652a0fdfb76bbe222086327',1,'ARM_MPU_Disable(void):&#160;mpu_armv8.h']]],
   ['arm_5fmpu_5fenable_3',['ARM_MPU_Enable',['../mpu__armv7_8h.html#a5a3f40314553baccdeea551f86d9a997',1,'ARM_MPU_Enable(uint32_t MPU_Control):&#160;mpu_armv7.h'],['../mpu__armv8_8h.html#a5a3f40314553baccdeea551f86d9a997',1,'ARM_MPU_Enable(uint32_t MPU_Control):&#160;mpu_armv8.h']]],

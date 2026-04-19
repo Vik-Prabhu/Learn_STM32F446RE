@@ -1,14 +1,9 @@
 var searchData=
 [
-  ['cache_20functions_0',['Cache Functions',['../group__CMSIS__Core__CacheFunctions.html',1,'']]],
-  ['cmsis_1',['CMSIS',['../group__CMSIS.html',1,'']]],
-  ['cmsis_20core_20instruction_20interface_2',['CMSIS Core Instruction Interface',['../group__CMSIS__Core__InstructionInterface.html',1,'']]],
-  ['cmsis_20core_20register_20access_20functions_3',['CMSIS Core Register Access Functions',['../group__CMSIS__Core__RegAccFunctions.html',1,'']]],
-  ['cmsis_20global_20defines_4',['CMSIS Global Defines',['../group__CMSIS__glob__defs.html',1,'']]],
-  ['cmsis_20simd_20intrinsics_5',['CMSIS SIMD Intrinsics',['../group__CMSIS__SIMD__intrinsics.html',1,'']]],
-  ['cmsis_5fdevice_6',['CMSIS_Device',['../group__CMSIS__Device.html',1,'']]],
-  ['configuration_5fsection_5ffor_5fcmsis_7',['Configuration_section_for_CMSIS',['../group__Configuration__section__for__CMSIS.html',1,'']]],
-  ['core_20debug_20registers_20_28coredebug_29_8',['Core Debug Registers (CoreDebug)',['../group__CMSIS__CoreDebug.html',1,'']]],
-  ['core_20definitions_9',['Core Definitions',['../group__CMSIS__core__base.html',1,'']]],
-  ['core_20register_20bit_20field_20macros_10',['Core register bit field macros',['../group__CMSIS__core__bitfield.html',1,'']]]
+  ['backwards_20compatibility_20aliases_0',['Backwards Compatibility Aliases',['../group__CMSIS__register__aliases.html',1,'']]],
+  ['banking_20registers_20implementation_20defined_1',['Error Banking Registers (IMPLEMENTATION DEFINED)',['../group__ErrBnk__Type.html',1,'']]],
+  ['bit_20field_20macros_2',['Core register bit field macros',['../group__CMSIS__core__bitfield.html',1,'']]],
+  ['block_3',['Block',['../group__CMSIS__DCB.html',1,'Debug Control Block'],['../group__CMSIS__DIB.html',1,'Debug Identification Block']]],
+  ['block_20register_20icb_4',['Implementation Control Block register (ICB)',['../group__CMSIS__ICB.html',1,'']]],
+  ['block_20scb_5',['System Control Block (SCB)',['../group__CMSIS__SCB.html',1,'']]]
 ];

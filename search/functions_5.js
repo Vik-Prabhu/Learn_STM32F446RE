@@ -15,5 +15,6 @@ var searchData=
   ['scb_5finvalidateicache_12',['SCB_InvalidateICache',['../group__CMSIS__Core__CacheFunctions.html#ga62419cb7e6773e3d9236f14e458c1b05',1,'cachel1_armv7.h']]],
   ['scb_5finvalidateicache_5fby_5faddr_13',['SCB_InvalidateICache_by_Addr',['../group__CMSIS__Core__CacheFunctions.html#gaeb1a2bf181afcfb837ce0502e6bfa4fb',1,'cachel1_armv7.h']]],
   ['systemcoreclockupdate_14',['SystemCoreClockUpdate',['../group__STM32F4xx__System__Exported__Functions.html#gae0c36a9591fe6e9c45ecb21a794f0f0f',1,'system_stm32f4xx.h']]],
-  ['systeminit_15',['SystemInit',['../group__STM32F4xx__System__Exported__Functions.html#ga93f514700ccf00d08dbdcff7f1224eb2',1,'system_stm32f4xx.h']]]
+  ['systeminit_15',['SystemInit',['../group__STM32F4xx__System__Exported__Functions.html#ga93f514700ccf00d08dbdcff7f1224eb2',1,'system_stm32f4xx.h']]],
+  ['systick_5fconfig_16',['SysTick_Config',['../group__CMSIS__Core__NVICFunctions.html#gae4e8f0238527c69f522029b93c8e5b78',1,'core_armv81mml.h']]]
 ];

@@ -9,8 +9,8 @@ var indexSectionsWithContent =
   6: "efi",
   7: "abcdefimnopqrstuw",
   8: "_apt",
-  9: "bcdefhilmnpst",
-  10: "dm"
+  9: "abcdefghiklmnoprstuvw",
+  10: "cdelm"
 };
 
 var indexSectionNames =

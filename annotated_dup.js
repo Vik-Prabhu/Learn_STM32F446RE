@@ -39,6 +39,7 @@ var annotated_dup =
     [ "ITM_Type", "structITM__Type.html", "structITM__Type" ],
     [ "IWDG_TypeDef", "structIWDG__TypeDef.html", "structIWDG__TypeDef" ],
     [ "MemSysCtl_Type", "structMemSysCtl__Type.html", "structMemSysCtl__Type" ],
+    [ "MPU_Type", "structMPU__Type.html", "structMPU__Type" ],
     [ "NVIC_Type", "structNVIC__Type.html", "structNVIC__Type" ],
     [ "PrcCfgInf_Type", "structPrcCfgInf__Type.html", "structPrcCfgInf__Type" ],
     [ "PWR_TypeDef", "structPWR__TypeDef.html", "structPWR__TypeDef" ],

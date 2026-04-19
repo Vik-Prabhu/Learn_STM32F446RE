@@ -4,7 +4,7 @@ var searchData=
   ['abr_1',['ABR',['../structQUADSPI__TypeDef.html#af989aa29f188fdda929cd5f350ff27c5',1,'QUADSPI_TypeDef']]],
   ['acpr_2',['ACPR',['../group__CMSIS__core__DebugFunctions.html#ga9e5e4421ef9c3d5b7ff8b24abd4e99b3',1,'TPI_Type']]],
   ['acr_3',['ACR',['../structFLASH__TypeDef.html#aaf432a8a8948613f4f66fcace5d2e5fe',1,'FLASH_TypeDef']]],
-  ['actlr_4',['ACTLR',['../group__CMSIS__core__DebugFunctions.html#ga13af9b718dde7481f1c0344f00593c23',1,'SCnSCB_Type::ACTLR()'],['../group__CMSIS__core__DebugFunctions.html#gac43ad74d42fdfff0055b2a62705474f3',1,'ICB_Type::ACTLR()']]],
+  ['actlr_4',['ACTLR',['../group__CMSIS__core__DebugFunctions.html#ga13af9b718dde7481f1c0344f00593c23',1,'SCnSCB_Type::ACTLR'],['../group__CMSIS__core__DebugFunctions.html#gac43ad74d42fdfff0055b2a62705474f3',1,'ICB_Type::ACTLR']]],
   ['adr_5',['ADR',['../group__CMSIS__core__DebugFunctions.html#gaf084e1b2dad004a88668efea1dfe7fa1',1,'SCB_Type']]],
   ['afr_6',['AFR',['../structGPIO__TypeDef.html#a2245603433e102f0fd8a85f7de020755',1,'GPIO_TypeDef']]],
   ['afsr_7',['AFSR',['../group__CMSIS__core__DebugFunctions.html#gab65372404ce64b0f0b35e2709429404e',1,'SCB_Type']]],
