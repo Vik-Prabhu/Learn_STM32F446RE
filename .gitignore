@@ -1,7 +1,6 @@
 # Build output — never commit these
-build/
-# But keep the folder structure tracked
-!build/.gitkeep
+build/obj/
+
 
 # Doxygen generated files - built by GitHub Actions
 docs/html/
