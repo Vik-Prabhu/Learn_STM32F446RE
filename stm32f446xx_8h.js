@@ -3666,7 +3666,7 @@ var stm32f446xx_8h =
     [ "CAN_IER_ERRIE_Pos", "group__Peripheral__Registers__Bits__Definition.html#gaf5a98a5d7ea27cfd207b83364fb3b8e2", null ],
     [ "CAN_IER_EWGIE", "group__Peripheral__Registers__Bits__Definition.html#gaa80103eca53d74a2b047f761336918e3", null ],
     [ "CAN_IER_EWGIE_Msk", "group__Peripheral__Registers__Bits__Definition.html#gac15046ca7a384201773a9dfeb03deabc", null ],
-    [ "CAN_IER_EWGIE_Pos", "group__Peripheral__Registers__Bits__Definition.html#ga4fd57fb482a8b1eb95b564f3ec9dd3a0", null ],
+    [ "CAN_IER_EWGIE_Pos", "group__Peripheral__Registers__Bits__Definition.html#ga5ed2cabb36a1f1b250a8d344896b1c9c", null ],
     [ "CAN_IER_EWGIE_Pos", "group__Peripheral__Registers__Bits__Definition.html#ga5ed2cabb36a1f1b250a8d344896b1c9c", null ],
     [ "CAN_IER_FFIE0", "group__Peripheral__Registers__Bits__Definition.html#gaf926ae29d98a8b72ef48f001fda07fc3", null ],
     [ "CAN_IER_FFIE0_Msk", "group__Peripheral__Registers__Bits__Definition.html#ga8885a2f34117d17dfb78fb78fb18b7a7", null ],

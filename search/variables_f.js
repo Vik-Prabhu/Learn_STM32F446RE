@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['oar1_0',['OAR1',['../structI2C__TypeDef.html#ae8269169fcbdc2ecb580208d99c2f89f',1,'I2C_TypeDef::OAR1'],['../structFMPI2C__TypeDef.html#ac71603691436249749d520945662c67a',1,'FMPI2C_TypeDef::OAR1']]],
-  ['oar2_1',['OAR2',['../structI2C__TypeDef.html#a73988a218be320999c74a641b3d6e3c1',1,'I2C_TypeDef::OAR2'],['../structFMPI2C__TypeDef.html#ad0de14c40e6bd491429a5f488a5a8814',1,'FMPI2C_TypeDef::OAR2']]],
+  ['oar1_0',['OAR1',['../structI2C__TypeDef.html#ae8269169fcbdc2ecb580208d99c2f89f',1,'I2C_TypeDef::OAR1()'],['../structFMPI2C__TypeDef.html#ac71603691436249749d520945662c67a',1,'FMPI2C_TypeDef::OAR1()']]],
+  ['oar2_1',['OAR2',['../structI2C__TypeDef.html#a73988a218be320999c74a641b3d6e3c1',1,'I2C_TypeDef::OAR2()'],['../structFMPI2C__TypeDef.html#ad0de14c40e6bd491429a5f488a5a8814',1,'FMPI2C_TypeDef::OAR2()']]],
   ['odr_2',['ODR',['../structGPIO__TypeDef.html#a6fb78f4a978a36032cdeac93ac3c9c8b',1,'GPIO_TypeDef']]],
   ['optcr_3',['OPTCR',['../structFLASH__TypeDef.html#a54026c3b5bc2059f1b187acb6c4817ac',1,'FLASH_TypeDef']]],
   ['optcr1_4',['OPTCR1',['../structFLASH__TypeDef.html#a180354afdf5ff27d04befd794c46156d',1,'FLASH_TypeDef']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hardware_5fconstant_5fdefinition_0',['Hardware_Constant_Definition',['../group__Hardware__Constant__Definition.html',1,'']]]
+  ['library_5fconfiguration_5fsection_0',['Library_configuration_section',['../group__Library__configuration__section.html',1,'']]]
 ];
